@@ -1,0 +1,7 @@
+.chart_container {
+    margin: 10px;
+    height: 32vh;
+    /* position: relative;
+    top: 10px; */
+    background-color: rgb(99 97 92 / 21%);
+}

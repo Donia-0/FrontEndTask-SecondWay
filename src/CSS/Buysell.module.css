@@ -1,0 +1,161 @@
+:root{
+    --main-color : #bd9030;
+    --second-color : #00ce7d;
+ }
+
+/* //////////////////////////////////////////////// */
+
+/* .dashboard{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+} */
+ 
+/* second column */
+.buy_sell {
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+    border-radius: 5px;
+}
+.buy_sell .title{
+    padding: 10px;
+}
+.buy_sell .title p{
+
+    font-size: 20px;
+
+}
+.buy_sell .buy_sellbtns{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  
+}
+.buy_sell .buy_sellbtns .buy{
+    width: 40%;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-family:  Arial;
+    background-color: #464545;
+    opacity: 100%;
+    border-bottom: 5px solid var(--main-color);
+}
+
+.buy_sell .buy_sellbtns .sell{
+    width: 40%;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    opacity: 30%;
+    background-color: #464545;
+}
+
+.buy_sell .first_list select{
+    background-color: transparent;
+    width: 95%;
+    margin: auto;
+    margin-top: 15px;
+    color: white;
+}
+.buy_sell .first_list option{
+    color: black;
+}
+
+.buy_sell .first_label{
+    position: relative;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+}
+.buy_sell .first_label input{
+    background-color: transparent;
+    color: white;
+    text-align: end;
+    display: block;
+    margin-top: 20px;
+}
+
+.buy_sell .first_label span{
+    position: absolute;
+    top: 5px;
+    color: white;
+    left: 18px;
+}
+
+
+.group{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 20px;
+}
+.group .second_list{
+    width: 45%;
+}
+.group .second_list select{
+    background-color: transparent;
+    color: white;
+}
+.group .second_list option{
+    color: black;
+}
+.group .second_label{
+    position: relative;
+    width: 45%;
+    
+}
+.group .second_label input{
+    background-color: transparent;
+    text-align: end;
+}
+.group .second_label span{
+    position: absolute;
+    top: 15%;
+    left: 10px;
+    color: white;
+}
+.third_label{
+    position: relative;
+    width: 95%;
+    margin: auto;
+    
+}
+.third_label input{
+    background-color: #464545;
+    text-align: end;
+    color: white;
+    margin-top: 20px;
+}
+.third_label span{
+    position: absolute;
+    top: 15%;
+    left: 10px;
+    color: white;
+}
+.last_btns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 10px;
+}
+.last_btns .reset{
+    background-color: #8f8f8f;
+    color: white;
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+}
+.last_btns .preview{
+    background-color: var(--second-color);
+    color: white;
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+}
